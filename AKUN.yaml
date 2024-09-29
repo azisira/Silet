@@ -1,0 +1,14 @@
+proxies:
+  - name: reyre
+    server: quiz.staging.vidio.com
+    port: 443
+    type: trojan
+    password: a4d0f68b-eeb0-4093-b003-458d769556ab
+    skip-cert-verify: false
+    sni: do1.server-vpn.cloud
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: do1.server-vpn.cloud
+    udp: true
